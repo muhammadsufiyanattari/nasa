@@ -1,0 +1,1537 @@
+.navbhai {
+    background-color: black !important;
+}
+
+.navleft>a {
+    font-size: x-large;
+    padding: 10px;
+    margin: 5px;
+    font-weight: 900;
+    color: white;
+    background-color: transparent;
+}
+
+.navleft>a:focus {
+    color: white;
+    border: 5px solid rgb(65, 65, 172);
+}
+
+.navleft>a:hover {
+    color: white;
+
+}
+
+.navleft>a>span {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+/* kam baki he */
+.navsearch>ul>li>input {
+    background-color: transparent;
+    margin: 10px;
+
+}
+
+.navsearch>ul>li>input:active {
+    border: 8px solid rgb(65, 65, 172);
+}
+
+.navsearch>ul>li>input:active {
+    border: 8px solid rgb(65, 65, 172);
+}
+
+.navsearch>ul>li>input:focus {
+    border: 8px solid rgb(65, 65, 172);
+}
+
+/* kam baki he */
+
+
+
+.navright>ul>li>div>a {
+    padding: 10px;
+    font-size: medium;
+    font-weight: 500;
+    background-color: black !important;
+    border-radius: 0px !important;
+    border: none;
+}
+
+.navright>ul>li>div>a:focus {
+    border: 8px solid rgb(65, 65, 172) !important;
+}
+
+.nasalive>a {
+    color: white !important;
+    font-size: medium !important;
+    font-weight: 500 !important;
+}
+
+.nasalive>a>span {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: red;
+}
+
+.nasalive>a:focus {
+    border: 8px solid rgb(65, 65, 172) !important;
+}
+
+.livenow {
+    /* background-color: red; */
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.livenow>div {
+    font-weight: 700;
+}
+
+
+
+
+.main {
+    position: relative;
+}
+
+.main>.viewimg>img {
+    width: 100%;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    bottom: 40%;
+    width: 50%;
+    left: 25px;
+}
+
+.text>.row>div>p {
+    font-size: 50px !important;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.text>.row>div>span {
+    font-size: 23px;
+    text-transform: capitalize;
+    /* font-weight: 500; */
+}
+
+.text>.row>div>button {
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 7px;
+
+
+}
+
+@media screen and (max-width: 910px) {
+
+    .text {
+        left: 25px;
+        bottom: 20%;
+    }
+
+    .text>.row>div>p {
+        font-size: 45px !important;
+        text-transform: capitalize;
+        font-weight: 400;
+    }
+
+    .text>.row>div>span {
+        font-size: 20px;
+        text-transform: capitalize;
+        /* font-weight: 500; */
+    }
+
+    .text>.row>div>button {
+        padding: 10px;
+        margin: 10px;
+        width: 30%;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 7px;
+
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+
+    .text {
+        text-align: center;
+        left: 200px;
+        bottom: 20%;
+    }
+
+    .text>.row>div>p {
+        font-size: 35px !important;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    .text>.row>div>span {
+        font-size: 18px;
+        text-transform: capitalize;
+        /* font-weight: 500; */
+    }
+
+    .text>.row>div>button {
+        padding: 10px;
+        margin: 10px;
+        width: 100%;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 7px;
+
+
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .text {
+        left: 135px !important;
+        bottom: 25%;
+    }
+
+    .text>.row>div>p {
+        font-size: 25px !important;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    .text>.row>div>span {
+        font-size: 15px;
+        text-transform: capitalize;
+        /* font-weight: 500; */
+    }
+
+    .text>.row>div>button {
+        padding: 10px;
+        margin: 10px;
+        width: 100%;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 7px;
+
+
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .text {
+        left: 130px !important;
+        bottom: 20%;
+    }
+
+    .text>.row>div>p {
+        font-size: 22px !important;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    .text>.row>div>span {
+        font-size: 12px !important;
+        text-transform: capitalize;
+        /* font-weight: 500; */
+    }
+
+    .text>.row>div>button {
+        padding: 10px;
+        margin: 10px;
+        width: 95%;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 7px;
+
+
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 456px) {
+
+    .text {
+        left: 120px !important;
+        bottom: 20%;
+    }
+
+    .text>.row>div>p {
+        font-size: 18px !important;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+
+    .text>.row>div>span {
+        font-size: 8px !important;
+        text-transform: capitalize;
+        /* font-weight: 500; */
+    }
+
+    .text>.row>div>button {
+        padding: 10px;
+        margin: 10px;
+        width: 95%;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 9px;
+        font-weight: bold;
+        border-radius: 7px;
+
+
+    }
+
+}
+
+
+.nextrow {
+    position: absolute;
+    bottom: 0%;
+    width: 50%;
+}
+
+.arrowtextp {
+    margin-left: 10px;
+    border-top: 1px solid gray;
+}
+
+.arrowtextp>.para1 {
+    letter-spacing: 3px;
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+}
+
+.arrowtextp>.para2 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.arrowtextp>.para2 span {
+    background-color: red;
+    border-radius: 35px;
+    font-size: 15px;
+    padding: 2px;
+    color: white;
+}
+
+@media screen and (max-width: 950px) {
+    .nextrow {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+    }
+
+    .arrowtextp {
+        margin-left: 5px;
+        border-top: 1px solid gray;
+    }
+
+    .arrowtextp>.para1 {
+        letter-spacing: 3px;
+        font-size: 12px !important;
+        color: white;
+        font-weight: 700;
+    }
+
+    .arrowtextp>.para2 {
+        letter-spacing: 1px;
+        font-size: 17px;
+        color: white;
+        font-weight: 700;
+    }
+
+    .arrowtextp>.para2 span {
+        background-color: red;
+        border-radius: 35px;
+        font-size: 15px;
+        padding: 2px;
+        color: white;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+    .nextrow {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+    }
+
+    .arrowtextp {
+        margin-left: 5px;
+        border-top: 1px solid gray;
+    }
+
+    .arrowtextp>.para1 {
+        letter-spacing: 2px;
+        font-size: 10px !important;
+        color: white;
+        font-weight: 700;
+    }
+
+    .arrowtextp>.para2 {
+        letter-spacing: 1px;
+        font-size: 15px;
+        color: white;
+        font-weight: 700;
+    }
+
+    .arrowtextp>.para2 span {
+        background-color: red;
+        border-radius: 35px;
+        font-size: 15px;
+        padding: 2px;
+        color: white;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 600PX) {
+    .nextrow {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+    }
+
+    .arrowtextp {
+        display: none;
+        margin-left: 5px;
+        border-top: 1px solid gray;
+    }
+
+    .arrowtextp>.para1 {
+        letter-spacing: 2px;
+        font-size: 5px !important;
+        color: white;
+        font-weight: 500;
+    }
+
+    .arrowtextp>.para2 {
+        letter-spacing: 1px;
+        font-size: 10px;
+        color: white;
+        font-weight: 700;
+    }
+
+    .arrowtextp>.para2 span {
+        background-color: red;
+        border-radius: 35px;
+        font-size: 8px;
+        padding: 2px;
+        color: white;
+    }
+
+
+}
+
+
+
+.textnews>.col>h1 {
+    text-align: left;
+    padding-top: 0px;
+
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.textnews>.col>h4 {
+    text-align: right;
+    padding-top: 10px;
+
+
+}
+
+.textnews>.col>h4>span {
+    background-color: red;
+    color: white;
+    border-radius: 35px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .textnews>.col>h4 {
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 10px;
+        font-weight: 500;
+    }
+}
+
+.yellowcard {}
+
+.yellowcard img {
+    width: 100%;
+}
+
+.misailcard {
+    width: 20%;
+
+}
+
+.misailcard img {
+    width: 100%;
+
+}
+
+.meaball {}
+
+.meaball img {
+    width: 230px;
+}
+
+.ascan {}
+
+.ascan img {
+    margin-top: 10px;
+
+    width: 230px;
+}
+
+.newsreels {
+    display: flex;
+    position: relative;
+}
+
+.newsreelsspan {
+    position: absolute;
+    margin-top: 10px !important;
+    margin-left: 5px;
+
+}
+
+.newsreelsspan span {
+    color: white;
+    padding: 3px;
+    font-size: 12px;
+
+}
+
+.newsreelsspan>.newsicon {
+    border: 1px solid white;
+    border-radius: 35px;
+}
+
+.reelstext {
+    margin-top: 200px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.reelstext>span {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.reelstext>p {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+
+.reelstext2 {
+    margin-top: 150px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.reelstext2>span {
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.reelstext2>p {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+.reelstext3 {
+    margin-top: 60px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.reelstext3>span {
+    font-size: 8px;
+    font-weight: 400;
+    color: white;
+}
+
+.reelstext3>p {
+    font-size: 11px;
+    font-weight: 500;
+    margin-right: 10px !;
+    color: white;
+}
+
+
+.reelstext4 {
+    margin-top: 110px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.reelstext4>span {
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.reelstext4>p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 10px !;
+    color: white;
+}
+
+
+
+@media screen and (max-width:800px) {
+
+
+
+    .reelstext {
+        margin-top: 160px !important;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .reelstext>span {
+        font-size: 12px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .reelstext>p {
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+    }
+
+
+
+
+
+    .reelstext2 {
+        margin-top: 600px !important;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .reelstext2>span {
+        font-size: 12px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .reelstext2>p {
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+    }
+
+
+    .reelstext4 {
+        margin-top: 270px !important;
+        margin-left: 15px;
+        position: absolute;
+    }
+
+    .reelstext4>span {
+        font-size: 10px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .reelstext4>p {
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 10px !;
+        color: white;
+    }
+
+}
+
+
+
+@media screen and (max-width:700px) {
+
+
+
+    .reelstext {
+        margin-top: 160px !important;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .reelstext>span {
+        font-size: 12px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .reelstext>p {
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+    }
+
+
+
+
+
+    .reelstext2 {
+        margin-top: 600px !important;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .reelstext2>span {
+        font-size: 12px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .reelstext2>p {
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+    }
+
+
+    .reelstext4 {
+        margin-top: 270px !important;
+        margin-left: 15px;
+        position: absolute;
+    }
+
+    .reelstext4>span {
+        font-size: 10px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .reelstext4>p {
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 10px !;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+
+
+    .newsreelsspan {
+        position: absolute;
+        margin-top: 15px !important;
+        margin-left: 5px;
+
+    }
+
+    .newsreelsspan span {
+        color: white;
+        padding: 3px;
+        font-size: 12px;
+
+    }
+
+    .newsreelsspan>.newsicon {
+        border: 1px solid white;
+        border-radius: 35px;
+    }
+
+    .reelstext {
+        margin-top: 140px !important;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .reelstext>span {
+        font-size: 12px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .reelstext>p {
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+    }
+
+
+
+
+    .reelstext2 {
+        margin-top: 470px !important;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .reelstext2>span {
+        font-size: 10px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .reelstext2>p {
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+    }
+
+
+
+    .reelstext3 {
+        margin-top: 180px !important;
+        margin-left: 15px;
+        position: absolute;
+    }
+
+    .reelstext3>span {
+        font-size: 8px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .reelstext3>p {
+        font-size: 11px;
+        font-weight: 500;
+        margin-right: 10px !;
+        color: white;
+    }
+
+
+    .reelstext4 {
+        margin-top: 250px !important;
+        margin-left: 15px;
+        position: absolute;
+    }
+
+    .reelstext4>span {
+        font-size: 10px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .reelstext4>p {
+        font-size: 12px;
+        font-weight: 500;
+        margin-right: 10px !;
+        color: white;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+
+
+
+    .yellowcard {
+      
+    }
+
+    .yellowcard img {
+        width: 100% !important;
+    }
+
+    .misailcard {
+        width: 100% !important;
+     
+    }
+
+    .misailcard img {
+        width: 100% !important;
+    }
+
+    .meaball {
+       
+    }
+
+    .meaball img {
+        width: 100% !important;
+    }
+
+    .ascan {
+      
+    }
+
+    .ascan img {
+        margin-top: 10px;
+
+        width: 100% !important;
+    }
+
+}
+
+.bolcard {
+    margin-top: 30px !important;
+}
+
+.circletext {
+    padding-left: 20px;
+}
+
+.circleimg>img {
+    width: 80px;
+    border-radius: 100px;
+}
+
+.circletext>.MindRead {
+    word-spacing: 3px;
+    font-size: 12px;
+    color: rgb(87, 84, 84);
+
+}
+
+.circletext>p {
+    font-weight: 800;
+    font-size: 15px;
+
+}
+
+.imagearticle>.imagearticletext {
+    color: rgb(87, 84, 84);
+    word-spacing: 3px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.imagearticle .imagearticleicon {
+    font-size: 15px;
+    border: 1px solid rgb(87, 84, 84);
+    border-radius: 35px;
+}
+
+.circlemain {
+    margin-top: 10px;
+    display: flex;
+}
+
+.thecolorofspace {
+    margin-top: 20px;
+    background-color: black;
+}
+
+.thecolorofspacetext {
+    color: white;
+    margin-top: 50px;
+}
+
+.thecolorofspacerow {
+    padding: 35px 10px;
+}
+
+.thecolorofspacediv>.FEATUREspan {
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    font-size: 14px;
+    font-weight: 100;
+    color: gray;
+}
+
+.thecolorofspacediv>h1 {
+    font-size: 40px;
+}
+
+.thecolorofspacediv>p {
+    font-size: 15px;
+    line-height: 22px;
+    color: rgb(206, 193, 193);
+}
+
+.thecolorofspacediv>.Meet {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.thecolorofspacediv>.Meet>.arrowspace {
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    border-radius: 35px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+.imgofthedaymain {
+    margin-top: 50px;
+}
+
+.imgofthehead>.today {
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.imgofthehead>h1 {
+    padding-bottom: 40px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.imgofthep>.Astronaut {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.imgofthep>.Being {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(85, 83, 83);
+}
+
+.imgofthep>.Browse {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.imgofthep>.Browse>.arrowbrowse {
+    font-size: 15px;
+    margin-left: 5px;
+    background-color: red;
+    border-radius: 35px;
+    color: white;
+    padding: 3px;
+    font-weight: 700;
+
+}
+
+
+.view {
+    text-align: right;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.view>.arrowview {
+    font-size: 15px;
+    margin-left: 5px;
+    background-color: red;
+    border-radius: 35px;
+    color: white;
+    padding: 3px;
+    font-weight: 700;
+
+}
+
+.downloadimg {
+    display: flex;
+    position: relative;
+}
+
+.download {
+    position: absolute;
+    background-color: rgb(0, 136, 255);
+    color: white;
+    border-radius: 35px;
+    right: 30px;
+    top: 10px;
+}
+
+.ourcontainer {
+    position: relative;
+}
+
+.ourimg {
+    filter: brightness(50%);
+}
+
+.ouetext {
+    bottom: 200px;
+    color: white;
+    left: 100px;
+    position: absolute;
+}
+
+.Ourdivh1>h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.Ourdivsapn {
+    width: 45%;
+    margin: 50px 0px;
+}
+
+.Ourdivsapn span {
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+
+.ourstar {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.ourstar span {
+    background-color: red;
+    border-radius: 35px;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .ourcontainer {
+        position: relative;
+    }
+
+    .ourimg {
+        filter: brightness(50%);
+    }
+
+    .ouetext {
+        bottom: 80px;
+        color: white;
+        left: 100px;
+        position: absolute;
+    }
+
+    .Ourdivh1>h1 {
+        font-weight: bold;
+        font-size: 60px;
+    }
+
+    .Ourdivsapn {
+        width: 45%;
+        margin: 50px 0px;
+    }
+
+    .Ourdivsapn span {
+        font-weight: 400;
+        font-weight: 400;
+        font-size: 17px;
+
+    }
+
+    .ourstar {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+
+    .ourstar span {
+        background-color: red;
+        border-radius: 35px;
+        padding: 4px;
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .ourcontainer {
+        position: relative;
+    }
+
+    .ourimg {
+        filter: brightness(50%);
+    }
+
+    .ouetext {
+        bottom: 120px;
+        color: white;
+        left: 100px;
+        position: absolute;
+    }
+
+    .Ourdivh1>h1 {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .Ourdivsapn {
+        width: 45%;
+        margin: 30px 0px;
+    }
+
+    .Ourdivsapn span {
+        font-weight: 300;
+        font-size: 15px;
+
+    }
+
+    .ourstar {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+
+    .ourstar span {
+        background-color: red;
+        border-radius: 35px;
+        padding: 4px;
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .ourcontainer {
+        position: relative;
+    }
+
+    .ourimg {
+        filter: brightness(50%);
+    }
+
+    .ouetext {
+        bottom: 20px;
+        color: white;
+        left: 100px;
+        position: absolute;
+    }
+
+    .Ourdivh1>h1 {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .Ourdivsapn {
+        width: 45%;
+        margin: 30px 0px;
+    }
+
+    .Ourdivsapn span {
+        font-weight: 300;
+        font-size: 15px;
+
+    }
+
+    .ourstar {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+
+    .ourstar span {
+        background-color: red;
+        border-radius: 35px;
+        padding: 4px;
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .ourcontainer {
+        position: relative;
+    }
+
+    .ourimg {
+        filter: brightness(50%);
+    }
+
+    .ouetext {
+        bottom: 20px;
+        color: white;
+        left: 100px;
+        position: absolute;
+    }
+
+    .Ourdivh1>h1 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .Ourdivsapn {
+        width: 45%;
+        margin: 20px 0px;
+    }
+
+    .Ourdivsapn span {
+        font-weight: 400;
+        font-size: 11px;
+
+    }
+
+    .ourstar {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+
+    .ourstar span {
+        background-color: red;
+        border-radius: 35px;
+        padding: 4px;
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .ourcontainer {
+        position: relative;
+    }
+
+    .ourimg {
+        filter: brightness(50%);
+    }
+
+    .ouetext {
+        bottom: 0px;
+        color: white;
+        left: 100px;
+        position: absolute;
+    }
+
+    .Ourdivh1>h1 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .Ourdivsapn {
+        width: 45%;
+        margin: 5px 0px;
+    }
+
+    .Ourdivsapn span {
+        font-weight: 500;
+        font-size: 8px;
+
+    }
+
+    .ourstar {
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+
+    .ourstar span {
+        background-color: red;
+        border-radius: 35px;
+        padding: 2px;
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+}
+
+.missionimg img {
+    filter: brightness(50%);
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.Missionp {
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+}
+
+.Missionp>span {
+    background-color: red;
+    border-radius: 35px;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.missioncontainer {
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.missiontext {
+    position: absolute;
+    bottom: 10px;
+
+}
+
+/* footer */
+
+.footerfluid{
+    background-color: black;
+    color: white;
+}
+.footercontainer{
+    padding-top: 50px;
+}
+.footerimg>img{
+    width: 50px;padding: 30px 0px;
+}
+.Nationalp >p{
+    font-size: 16px;
+    font-weight: 650;
+
+}
+.Nationalspan {
+    
+color: rgb(164, 162, 162);
+    font-size: 11px;
+    font-weight: 500;
+
+   
+
+}
+.Nationala a{
+text-decoration: none;
+font-size: 12px;
+color: white;
+
+}
+.Nationala a:hover{
+    text-decoration: underline;
+
+    }
+    .nationalarrow{margin-top: 5px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .nationalarrow>span{
+       background-color: red;
+       border-radius: 35px;
+        font-size: 10px;
+        padding: 2px;
+    }
+    .footerhomenews{
+        margin-top: 80px;
+    }
+    .footerhomenews>ul>li{
+        list-style: none;
+        font-size: 12px;
+        padding: 4px 0px;
+        
+    }
+    .footerhomenews>ul>li>span{
+        border: 1px solid red;
+        letter-spacing: 2px;
+        padding: 0px 2px ;font-size: 9px;
+    }
+    .footerhomenews>ul>li>span:hover{
+        border: 1px solid red;
+        padding: 0px 2px ;font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        background-color: red;
+        color: white;
+    }
+    .footerhomenews2>ul>li:hover{
+        text-decoration: underline;
+    }
+    .follow{
+        margin-top: 80px;
+    }
+    .follow>ul>li{
+        list-style: none;
+        font-size: 12px;
+        padding: 4px 0px;
+        
+    }
+    .follow>ul>.follownasa{
+      font-size: 12px;
+
+      font-weight: 700;
+      color: rgb(172, 167, 167);
+        
+    }
+    .follow>ul>.followicon>i{
+       font-size: 18px;
+       color: rgb(82, 79, 79);
+       padding: 0px 3px;
+      }
+      .follow>ul>.followmore{
+        font-size: 11px;
+      }
+      .follow>ul>.followmore:hover{
+        text-decoration: underline;
+      }
+      .setupcol >.setupdiv>span{
+        font-size: 13px;
+        color: gray;
+        padding:0px 10px;
+
+      }
