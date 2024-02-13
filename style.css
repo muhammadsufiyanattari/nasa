@@ -68,7 +68,7 @@
     font-weight: 500 !important;
 }
 
-.nasalive>a>span {
+.nasalive>a>span {font-size: 10px;
     padding-left: 5px;
     padding-right: 5px;
     background-color: red;
