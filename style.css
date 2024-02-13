@@ -1,6 +1,9 @@
-.navbhai {
+.navbhai {margin: 0px;
     background-color: black !important;
     
+}
+.navbhai1{
+    background-color: black !important;
 }
 
 .navleft>a {
