@@ -102,7 +102,7 @@
 .text {
     color: white;
     position: absolute;
-    bottom: 40%;
+    bottom: 30%;
     width: 50%;
     left: 25px;
 }
@@ -510,18 +510,22 @@
     }
 }
 
-.yellowcard {}
+.yellowcard {margin: 5px;
+    
+}
 
 .yellowcard img {
+    filter: brightness(50%);
     width: 100%;
 }
 
-.misailcard {
+.misailcard {margin: 10px;
     width: 20%;
 
 }
 
 .misailcard img {
+    margin: px;
     width: 100%;
 
 }
@@ -529,20 +533,30 @@
 .meaball {}
 
 .meaball img {
-    width: 230px;
+    width: 100%;
 }
 
 .ascan {}
 
 .ascan img {
+    filter: brightness(50%);
     margin-top: 10px;
 
-    width: 230px;
+    width: 100%;
+}
+.b>img{margin-top: 40px !important;
+    width: 100%;
 }
 
 .newsreels {
     display: flex;
     position: relative;
+}
+.bspan>span {
+    position: absolute;
+    margin-top: 40px !important;
+    margin-left: 2px;
+
 }
 
 .newsreelsspan {
@@ -1408,7 +1422,7 @@
 .Missionp {
     font-weight: 600;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .Missionp>span {
@@ -1416,7 +1430,7 @@
     border-radius: 35px;
     padding: 2px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .missioncontainer {
@@ -1428,6 +1442,8 @@
 .missiontext {
     position: absolute;
     bottom: 10px;
+    
+    
 
 }
 
